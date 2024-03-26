@@ -9,15 +9,15 @@
   background:#fff;
   width:1500px;
   height:800px;
-  padding: 50px;
+  padding: 40px;
   border-radius: 24px;
   border-color: blueviolet;
   display: flex;
 }
 
 .card{
-  background-color: rgb(33, 21, 212);
- 
+  background-color: rgb(67, 53, 252);
+  box-shadow: 4px 4px 20px 0px;
   padding: 20px;
   margin: 8px;
   border-radius: 20px;
@@ -26,16 +26,46 @@
 .image{
   width:200px;
   height: 200px;
-  border-radius: 100%;
+  border-radius: 20%;
+  margin: 20px;
+}
+
+.image2{
+  width:400px;
+  height: 200px;
+  border-radius: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+.image3{
+  width:400px;
+  height: 200px;
+  border-radius: 10%;
+  justify-content: center;
+  align-items: center;
 }
 
 .left{
   width: 50%;
+  background-color: rgb(0, 119, 255);
+  border-radius: 20px;
+  margin: 20px;
 }
 
 .right{
-display: flex;
-width: 50%;
-justify-content: center;
-background-color: rgb(0, 119, 255);
+
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 119, 255);
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.tecnologias{
+  justify-content: center;
+  align-items: center;
 }
